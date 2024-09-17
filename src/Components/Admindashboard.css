@@ -1,0 +1,17 @@
+/* src/components/AdminDashboard.css */
+.admin-dashboard {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 250px; /* Match the width of the sidebar */
+    padding: 20px;
+    flex: 1;
+  }
+  
+  header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  

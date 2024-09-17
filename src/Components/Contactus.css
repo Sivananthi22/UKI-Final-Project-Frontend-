@@ -1,0 +1,48 @@
+.contact-header {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .contact-header img {
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  
+  .contact-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .contact-info .info-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer .p-3 {
+    background-color: #333;
+    color: white;
+  }
+  

@@ -1,0 +1,92 @@
+
+/* Auth Form Styles */
+.auth-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 100%;
+  max-width: 500px;
+}
+
+.auth-content h5 {
+  font-size: 24px;
+  color: #8A5525;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-content input {
+  border: 1px solid #8A5525;
+  border-radius: 20px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.auth-content input:focus {
+  border-color: #6e3f1c;
+  outline: none;
+}
+
+.auth-content button {
+  background-color: #6e3f1c;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.auth-content button:hover {
+  background-color: #8A5525;
+}
+
+.auth-content a {
+  color: #8A5525;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.auth-content a:hover {
+  text-decoration: underline;
+}
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+Modal content
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+Modal heading
+.modal-content h5 {
+  margin-bottom: 10px;
+}
+
+/* Modal button */
+.modal-content .btn-primary {
+  margin-top: 10px;
+}

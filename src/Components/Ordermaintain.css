@@ -1,0 +1,58 @@
+/* src/Components/Ordermaintain.css */
+.orders-maintainer {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px; /* Adjust width as needed */
+    background-color: #f4f4f4; /* Sidebar background color */
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .orders-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .orders-table td {
+    text-align: center;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px;
+  }
+  
+  .view-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  

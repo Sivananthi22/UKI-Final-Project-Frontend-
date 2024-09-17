@@ -1,0 +1,117 @@
+/* Navbar Styles */
+.navbar {
+  padding: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #8A5525;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 40px;
+}
+
+.navbar-nav .nav-link-custom {
+  background-color: white;
+  color: #8A5525;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link-custom:hover {
+  background-color: #6e3f1c;
+  color: white;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  padding: 100px 0;
+  /* background: url('../Images/hero-bg.jpg') no-repeat center center/cover; Background image for hero section */
+  text-align: left;
+}
+
+.hero-section h2 {
+  color: #8A5525;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.hero-section p {
+  color: #6e6e6e;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hero-section .btn-primary {
+  margin-top: 30px;
+  background-color: #6e3f1c;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 10px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+  background-color: #8A5525;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; /* Adds soft edges to the image */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #8A5525;
+  padding: 40px 0;
+  color: white;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #e2e2e2;
+}
+
+.footer-copy {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}

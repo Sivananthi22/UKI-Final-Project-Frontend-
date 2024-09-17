@@ -1,0 +1,65 @@
+.menu-section {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f7ebe6; /* Light background color */
+  width: 90%; /* Adjust width as needed */
+  max-width: 100%; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.menu-title {
+  font-size: 42px;
+  color: #5a4630; /* Dark brown color for the title */
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: 'Sevillana', cursive; /* Apply Sevillana font */
+}
+
+.menu-subtitle {
+  font-size: 30px;
+  color: #8b6f4e; 
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive; /* Apply Dancing Script font */
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Gap between each item */
+  flex-wrap: wrap; /* Wrap items to the next line if needed */
+}
+
+.menu-item {
+  width: 380px;
+  height: 550px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: white; /* Background color for the cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px); /* Lift on hover */
+}
+
+.menu-image {
+  width: 100%;
+  height: 85%; /* Adjust height as needed */
+  object-fit: cover; /* Cover to maintain aspect ratio */
+  border-bottom: 2px solid #e4d4c0; /* Border effect for separation */
+}
+
+.menu-item-name {
+  font-size: 28px; /* Adjust font size */
+  color: #5a4630; /* Dark brown for item names */
+  padding: 15px;
+  text-transform: uppercase; /* Uppercase for style */
+  font-weight: bold;
+  font-family: 'Satisfy', cursive; /* Apply Satisfy font */
+  text-align: center; /* Center align the text */
+}
